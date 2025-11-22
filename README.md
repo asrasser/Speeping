@@ -28,15 +28,10 @@ No virtual environments.
 No complex setup.  
 Just install once and run:
 
-speeping test
-
-yaml
-Copy code
 
 ---
 
 # 🎨 ASCII Banner
-
 ███████╗██████╗ ███████╗███████╗██████╗ ██╗██████╗ ███████╗██╗███╗ ██╗ ██████╗
 ██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗██║██╔══██╗██╔════╝██║████╗ ██║██╔════╝
 ███████╗██████╔╝█████╗ █████╗ ██║ ██║██║██████╔╝█████╗ ██║██╔██╗ ██║██║ ███╗
@@ -44,55 +39,41 @@ Copy code
 ███████║██║ ██║███████╗███████╗██████╔╝██║██║ ██║███████╗██║██║ ╚████║╚██████╔╝
 ╚══════╝╚═╝ ╚═╝╚══════╝╚══════╝╚═════╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝╚═╝ ╚═══╝ ╚═════╝
 
-yaml
-Copy code
 
 ---
 
 # 📦 Installation
 
-Clone the tool:
+Follow these simple steps to install the Speeping CLI tool on your system:
+
+---
+
+## 🔹 1) Clone the tool
 
 ```bash
 git clone https://github.com/asrasser/Speeping.git
 cd Speeping
-Install required package:
-
-bash
-Copy code
+```
+🔹 2) Install required dependency
+```bash
 sudo apt install -y speedtest-cli
-Make the tool globally available:
-
-bash
-Copy code
+```
+🔹 3) Make the tool executable
+```bash
 chmod +x speeping.py
+```
+🔹 4) Install the tool globally (so you can run it anywhere)
+```bash
 sudo cp speeping.py /usr/local/bin/speeping
-⚡ Usage
-Run a full internet speed test:
+```
+---
 
-bash
-Copy code
+## 🚀✨ Run the Tool
+
+To start using Speeping, simply run:
+
+```bash
 speeping test
-Example output:
 
-markdown
-Copy code
-[+] Running internet speed test...
 
------- Speeping Results ------
-Ping     : 22 ms
-Download : 92.34 Mbps
-Upload   : 18.44 Mbps
-------------------------------
-📁 Project Structure
-Copy code
-Speeping/
-│
-├── speeping.py
-└── README.md
-👑 Author
-Made with ❤️ by Aser
-https://github.com/asrasser
 
-yaml
-Copy code
